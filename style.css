@@ -111,3 +111,25 @@ footer {
     color: black;
     transform: translateY(-3px);
 }
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #eef4ff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
